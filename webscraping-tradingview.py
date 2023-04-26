@@ -23,7 +23,7 @@ soup = BeautifulSoup(webpage, 'html.parser')
 
 print(soup.title.text)
 
-stock_data = soup.findAll('div', attrs= {'class':'table-cell'})
+stock_data = soup.findAll('div', attrs= {'class':'chap'})
 
 print(stock_data[3].text)
 
